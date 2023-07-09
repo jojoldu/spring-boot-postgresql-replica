@@ -9,10 +9,11 @@ class Post (
     var id: Long,
 
     @Column
-    var name: String,
+    var name: String = "",
 
     @Column
-    var age: Int,
+    var age: Int = 0,
 
-
+    @Column
+    var content: String = ""
 )
